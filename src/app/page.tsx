@@ -1,3 +1,6 @@
+// page.tsx
+// Purpose: Entry point for the homepage; currently loads the main dashboard view.
+
 import Image from "next/image";
 
 export default function Home() {

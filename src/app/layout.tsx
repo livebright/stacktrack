@@ -1,3 +1,6 @@
+// layout.tsx
+// Purpose: Defines the global HTML structure and wraps all pages with consistent layout and styling.
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";

@@ -39,3 +39,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 >>>>>>> 3d1f2ae (Initial commit from Create Next App)
+
+## UI Structure
+
+/dashboard
+ ├── Timer
+ ├── Log Summary (Total duration, # sessions)
+ └── Recent Time Logs (TimeLogsList)
