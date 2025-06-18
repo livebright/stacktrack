@@ -46,3 +46,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
  ├── Timer
  ├── Log Summary (Total duration, # sessions)
  └── Recent Time Logs (TimeLogsList)
+
+
+Architecture
+
+stacktrack/
+├── app/              ← for route-based files (like `page.tsx`, `layout.tsx`, etc.)
+│   └── page.tsx
+├── components/       ← for reusable UI components
+│   ├── dashboard/
+│   │   └── Dashboard.tsx
+│   ├── timetracker/
+│   │   └── Timer.tsx
+│   └── ...
+├── public/
+├── styles/
+├── utils/
+├── package.json
+└── tsconfig.json
